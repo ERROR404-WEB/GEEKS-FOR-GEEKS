@@ -41,7 +41,7 @@ class Solution
         for(int i=0;i<n;i++)
         ans1+=(v[n-1]-v[i]);
         
-        return max(ans,ans1); 
+        return max(ans,ans1);
     } 
 };
 
